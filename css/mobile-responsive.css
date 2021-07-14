@@ -1,6 +1,7 @@
 /* Media Query style*/
 
 @media only screen and (max-width: 688px) {
+
     /* ---------header navbar-------- */
     header{
         height: 1050px;
@@ -21,12 +22,12 @@
         width: auto;
         padding: 10px 0;
     }
+
     /* ----------header banner------------ */
     .banner{
         width: auto;
         flex-direction: column;
         align-items: center;
-        /* background-color: yellow; */
     }
     .banner-title{
         width: 278px;
@@ -61,7 +62,7 @@
     /*  ------------world Cup style----------------- */
     .stadium-container{
         height: auto;
-        padding: 20px 0;
+        padding: 25px 0;
     }
     .stadiums{
         flex-direction: column;
@@ -70,7 +71,6 @@
     }
 
     /* -----------------Highlightss style----------------- */
-    
     .Highlights-container{
         width: auto;
         flex-direction: column;
@@ -90,7 +90,6 @@
     }
 
     /* -----------------footer style--------------- */
-
     .footer-section{
         width: 360px;
     }
