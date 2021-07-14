@@ -1,0 +1,51 @@
+/* Media Query style*/
+
+@media only screen and (max-width: 688px) {
+    /* ---------header navbar-------- */
+    header{
+        height: 1050px;
+        background-color: aquamarine;
+    }
+    nav{
+        width: auto;
+        height: auto;
+        flex-direction: column;  
+        align-items: center;
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-items a{
+        width: auto;
+        padding: 10px 0;
+    }
+    /* ----------header banner------------ */
+    .banner{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: yellow; */
+    }
+    .banner-title{
+        width: 278px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    .banner-title h1{
+        font-size: 36px;
+    }
+    .banner-img img{
+        width: 329px;
+        height: 259.17px;
+    }
+    /* -------------players style------------ */
+
+
+
+
+    .clubs, .stadium-container, .Highlights-section, footer{
+        display: none;
+    }
+  }
