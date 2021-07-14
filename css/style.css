@@ -131,7 +131,35 @@ article{
 .club img{
     width: 200px;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 /*  world Cup style */
-
+.stadium-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 250px;
+    background-image: linear-gradient(to bottom right,#99c3fd, #89f7fe);
+}
+.stadiums{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1050px;
+}
+.stadium{
+    text-align: center;
+    color: #E02C6D;
+}
+.stadium img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: width 1.3s, height 1.3s;
+}
+.stadium img:hover{
+    width: 205px;
+    height: 205px;
+}
