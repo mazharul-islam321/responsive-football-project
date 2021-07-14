@@ -1,0 +1,102 @@
+/* Media Query style*/
+
+@media only screen and (max-width: 688px) {
+    /* ---------header navbar-------- */
+    header{
+        height: 1050px;
+    }
+    nav{
+        width: auto;
+        height: auto;
+        flex-direction: column;  
+        align-items: center;
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .nav-items a{
+        width: auto;
+        padding: 10px 0;
+    }
+    /* ----------header banner------------ */
+    .banner{
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: yellow; */
+    }
+    .banner-title{
+        width: 278px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    .banner-title h1{
+        font-size: 36px;
+    }
+    .banner-img img{
+        width: 329px;
+        height: 259.17px;
+    }
+
+    /* -------------players style------------ */
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .palyers{
+        grid-template-columns: repeat(1, 1fr);
+        width: auto;
+    }
+
+    /* ------------club style--------------- */
+    .clubs{
+        width: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*  ------------world Cup style----------------- */
+    .stadium-container{
+        height: auto;
+        padding: 20px 0;
+    }
+    .stadiums{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    /* -----------------Highlightss style----------------- */
+    
+    .Highlights-container{
+        width: auto;
+        flex-direction: column;
+    }
+    .Highlights-text{
+        width: 329px;
+    }
+    .Highlights-text h2{
+        font-size: 30px;
+    }
+    .Highlightss-img{
+        margin-top: 29px;
+    }
+    .Highlightss-img img{
+        width: 328px;
+        height: 248px;
+    }
+
+    /* -----------------footer style--------------- */
+
+    .footer-section{
+        width: 360px;
+    }
+    .footer-section img{
+        width: 330px;
+        height: 90px;
+        margin-bottom: 15px;
+    }
+  }
